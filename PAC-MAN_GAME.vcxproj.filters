@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GAME.cpp" />
+    <ClCompile Include="Fruit.cpp">
+      <Filter>GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghosts.cpp">
+      <Filter>GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="PACMAN.cpp">
+      <Filter>GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="gameEntity.cpp">
+      <Filter>GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="save_mode.cpp">
+      <Filter>GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="load_mode.cpp">
+      <Filter>GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>BoardClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="game_board.cpp">
+      <Filter>BoardClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="main_game.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h" />
+    <ClInclude Include="Fruit.h">
+      <Filter>GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghosts.h">
+      <Filter>GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="PACMAN.h">
+      <Filter>GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="gameEntity.h">
+      <Filter>GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="save_mode.h">
+      <Filter>GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="load_mode.h">
+      <Filter>GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>BoardClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>BoardClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="game_board.h">
+      <Filter>BoardClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>BoardClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameEntities">
+      <UniqueIdentifier>{10b44c90-2433-4da1-83e9-c60bc95fd0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameModes">
+      <UniqueIdentifier>{a34ffffe-ebc8-4115-84be-b29cd8ac2669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoardClasses">
+      <UniqueIdentifier>{64eef3aa-ba35-4da1-b902-91a4e7e55e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{64323138-54c9-4b23-8a96-ecd30b19e2e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

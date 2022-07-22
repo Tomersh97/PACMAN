@@ -1,0 +1,4 @@
+not_valid_1.screen: There is at least one unvalid char. 
+not_valid_2.screen: This file is empty.
+not_valid_3.screen: There are more/less then one pacman. 
+not_valid_4.screen: There are too many ghosts. 
