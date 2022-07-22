@@ -1,0 +1,10 @@
+Names:
+Shterenberg Tomer		ID:316125657	
+Amrani Dekel 			ID:316010503
+
+Additions-  Colors 
+-Added a decent board validator which writes to log.txt file all board names which were not loaded properly including reason
+-Added a few invalid files to test the validator
+
+Notes:
+* In order to properly save a game either finish a screen or die and then exit the program, otherwise the steps will not be saved.

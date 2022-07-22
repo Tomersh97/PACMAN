@@ -1,0 +1,21 @@
+A screen's step file is formatted as follows:
+NAME_OF_ENTITY DIRECTION|  		       (Ex: GHOST UP|)
+where as NAME_OF_ENTITY may be: PACMAN, FRUIT or GHOST. Any other type of entity will cause an exception and will terminate the program.
+A special case may happen a fruit appears. Whenever a new fruit appears we receive:
+FRUIT NUMBER_OF_FRUIT Y_POS_FRUIT X_POS_FRUIT| (Ex: FRUIT 9 1 2|)
+
+Action sequence example: 
+PACMAN DOWN|PACMAN RIGHT|GHOST LEFT|PACMAN LEFT|PACMAN RIGHT|GHOST LEFT|FRUIT 9 1 2|
+PACMAN LEFT|PACMAN LEFT|GHOST RIGHT|FRUIT LEFT|
+
+A screen's result file is formatted as follows:
+Time of pacman death: TIMER_NUMBER
+Screen finish time:TIMER_NUMBER
+
+Example:
+Time of pacman death: 302
+Time of pacman death: 352
+Screen finish time:477
+
+Note that in order for tests to be well executed a full game must be played on save mode. 
+Current uploaded steps files may not be fully functional, thus causing an exception to appear
